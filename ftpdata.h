@@ -6,10 +6,9 @@
 #define DATA_LEN 1024
 
 typedef struct myftph {
-  uint8_t type;
-  uint8_t code;
-  uint16_t length;
+    uint8_t type;
+    uint8_t code;
+    uint16_t length;
 } myftph_t;
-
 
 #endif
